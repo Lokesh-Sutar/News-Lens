@@ -10,6 +10,7 @@ from collections import defaultdict
 import pandas as pd
 
 # ========== SETUP ==========
+nltk.download('stopwords')
 STOPWORDS = set(stopwords.words("english"))
 API_KEY = "65675dec54ea4305a56417cd6a64880b"
 
